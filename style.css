@@ -120,6 +120,10 @@ font-size: 20px;
 color: #ACEAEF;;
 }
 
+.footer-space {
+  height: 150px;
+}
+
 /* ---- Grid ---- */
 .grid {
 display: grid;
@@ -156,6 +160,7 @@ margin: 15px;
 font-size: 20px;
 }
 
+
 /* ---- Responsive ---- */
 @media (max-width: 900px) {
 .grid {
@@ -167,10 +172,6 @@ grid-template-columns: repeat(2, 1fr);
 .grid {
 grid-template-columns: 1fr;
 }
-}
-
-.footer-space {
-  height: 100px;
 }
 
 /* ---------------------------
