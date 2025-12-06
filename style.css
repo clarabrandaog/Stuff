@@ -59,37 +59,45 @@ p{
    padding: 0;
    text-align: left;
 }
-.item1 { 
+.header { 
     background-color: #7343a7;
     grid-area: header;
 }
-.item2 { 
+.menu { 
     background-color: #ACEAEF;
-
     grid-area: menu; 
     display: flex;
     flex-direction: column;
     min-width:300px;
 }
-.item3 { 
+.item1 { 
     background-color: #fcd3de;
     grid-area: main;
 }
+.item2{ 
+    background-color: #fcd3de;
+    grid-area: main2;
+}
+.item3 { 
+    background-color: #fcd3de;
+    grid-area: right1;
+}
 .item4 { 
     background-color: #fcd3de;
-    grid-area: right;
- }
-.item5 { 
+    grid-area: right2;
+}
+.footer { 
     background-color: #7343a7;
     grid-area: footer;
- }
+}
 
 .grid-container {
   display: grid;
   grid-template-areas:
     'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
+    'menu menu main main right1 right1'
+    'menu menu main2 main2 right2 right2'
+    'footer footer footer footer footer footer';
   gap: 10px;
   background-color: #11001C;
   padding: 20px;
